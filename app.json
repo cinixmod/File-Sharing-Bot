@@ -71,11 +71,7 @@
         "value": "False",
         "required": false
       },
-      "FILE_AUTO_DELETE": {
-        "description": "auto delete in seconds",
-        "value": "0",
-        "required": false
-      }
+      "FILE_AUTO_DELETE"
   },
   "buildpacks": [
       {
