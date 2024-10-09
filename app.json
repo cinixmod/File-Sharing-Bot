@@ -72,7 +72,7 @@
         "required": false
       },
       "FILE_AUTO_DELETE"
-  },
+  
   "buildpacks": [
       {
           "url": "heroku/python"
