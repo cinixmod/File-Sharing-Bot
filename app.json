@@ -1,18 +1,18 @@
 {
   "name": "File Sharing Premium Bot",
-  "description": "Telegram File Sharing Premium Bot Bot ",
+  "description": "Telegram File Sharing Premium Bot Bot",
   "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
-  "keywords": ["File Sharing Premium Bot", "Mongo DB"],    
+  "keywords": ["File Sharing Premium Bot", "Mongo DB"],
   "repository": "https://github.com/JishuDeveloper/File-Sharing-Premium-Bot",
   "success_url": "https://t.me/Madflix_Bots",
   "env": {
       "API_ID": {
-          "description": "Your APP ID From my.telegram.org ",
+          "description": "Your APP ID From my.telegram.org",
           "value": "",
           "required": true
       },
       "API_HASH": {
-          "description": "Your API Hash From my.telegram.org ",
+          "description": "Your API Hash From my.telegram.org",
           "value": "",
           "required": true
       },
@@ -22,12 +22,12 @@
           "required": true
       },
       "OWNER_ID": {
-        "description":"Add Your User ID here",
+        "description": "Add Your User ID here",
         "value": "",
         "required": true
       },
       "CHANNEL_ID": {
-          "description":"Make a channel (database channel), then make the bot as admin in channel, and it's id",
+          "description": "Make a channel (database channel), then make the bot as admin in channel, and it's id",
           "value": "",
           "required": true          
       },
@@ -46,8 +46,8 @@
           "value": "",
           "required": true
       },
-      "DB_NAME":{ 
-          "description":"Your Mongo DB Database Name",
+      "DB_NAME": { 
+          "description": "Your Mongo DB Database Name",
           "value": "madflixbotz",
           "required": false
       },
@@ -70,9 +70,13 @@
         "description": "Protect contents from getting forwarded",
         "value": "False",
         "required": false
-      },
-      "FILE_AUTO_DELETE"
-  
+      }
+      // "FILE_AUTO_DELETE": {
+      //     "description": "auto delete in seconds",
+      //     "value": "0",
+      //     "required": false
+      // }
+  },
   "buildpacks": [
       {
           "url": "heroku/python"
